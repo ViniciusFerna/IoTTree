@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter.ttc);
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.form-container h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+
+.form-container h1 span {
+    color: #109E19;
+}
+
+.formulario {
+    margin-top: 60px;
+}
+
+#nome {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#senha {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.senha {
+    margin-bottom: 31px;
+}
+
+.senha p {
+    font-size: 20px;
+}
+
+.senha p span {
+    color: #109E19;
+}
+
+.restaurarSenha {
+    text-decoration: none;
+}
+
+.entrar-btn {
+    background-color: #109E19;
+    padding: 5px 142.5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    font-family: Inter;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+

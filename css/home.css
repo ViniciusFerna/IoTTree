@@ -4,11 +4,19 @@ width: 100%;
     transform: scaleX(-1);
 }
 
+.right {
+    margin-bottom: 0;
+}
+
 .left {
     margin: 50px 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.left p {
+    font-size: 20px;
 }
 
 .left h1 {
@@ -29,3 +37,100 @@ width: 100%;
     margin-top: 20px;
 
 }
+
+.secondDiv {
+    background-color: #F4F4F4;
+}
+
+.secondDiv-content {
+   padding: 50px 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.secondDiv-content h1 {
+    margin-bottom: 20px;
+}
+
+.secondDiv-content p {
+    font-size: 18px;
+}
+
+.bubbles {
+    position: relative;
+    padding: 50px 50px;
+}
+
+.bubble-img1 {
+    border-radius: 100%;
+    width: 153px;
+    height: 154px;
+    position: relative;
+    top: 30px;
+    left: -70px;
+}
+
+.bubble-img2 {
+    border-radius: 100%;
+    width: 123px;
+    height: 103px;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.thirdDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.thirdDiv-text {
+    margin: 50px 50px;
+}
+
+.thirdDiv-text h1 {
+    margin-bottom: 30px;
+}
+
+.fourthDiv {
+    background-color: #F4F4F4;
+    padding: 50px 50px;
+}
+
+.carbonCoins {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carbonCoins img {
+    width: 100px;
+    height: 100px;
+}
+
+.carbonCoins p {
+    font-size: 18px;
+}
+
+.treeCoins {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.treeCoins img {
+    width: 100px;
+    height: 100px;
+}
+
+.treeCoins p {
+    font-size: 18px;
+}
+
+
+

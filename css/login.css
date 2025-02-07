@@ -9,10 +9,13 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 70px;
+    max-height: 500px;
 }
 
 .form-container h1 {
     font-size: 30px;
+    flex-basis: 100%;
+    margin-left: 23%;
     font-weight: bold;
     font-family: Inter, sans-serif;
 }
@@ -71,5 +74,44 @@
     font-size: 15px;
     text-decoration: none;
     color: black;
+}
+
+.page-container {
+    height: 100%;
+}
+
+.page-image {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .page-image {
+        display: block;
+        background-image: url("../img/aerial-shot-bird-s-eye-view-forest-2025872-1024x1024.jpg");
+        min-width: 60%;
+        height: 93vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .form-container {
+        margin-top: 300px;
+    }
+
+    .page-container {
+        display: flex;
+
+    }
+
+    .page-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .page-image h1 {
+        
+    }
 }
 

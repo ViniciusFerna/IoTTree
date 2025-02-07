@@ -8,8 +8,12 @@
     src: url(../fonts/AnonymousPro-Regular.ttf);
 }
 
+.hero {
+    font-family: Inter;
+}
+
 .right img {
-width: 100%;
+    width: 100%;
     height: 250px;
     transform: scaleX(-1);
 }
@@ -49,16 +53,38 @@ width: 100%;
 
 }
 
+@media (min-width: 1024px) {
+    .hero {
+        display: flex;
+    }
+
+    .right img {
+        width: 800px;
+        height: 100%;
+        clip-path: polygon(0% 0%, 70% 0%, 100% 100%, 0% 100%);
+    }
+
+    .left h1 {
+        margin-left: 140px;
+    }
+
+    .left p {
+        margin-left: 140px;
+    }
+
+}
+
+
 .secondDiv {
     background-color: #F4F4F4;
 }
 
 .secondDiv-content {
-   padding: 50px 50px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .secondDiv-content h1 {
@@ -93,11 +119,23 @@ width: 100%;
     left: 0;
 }
 
+@media (min-width: 1024px) {
+    .secondDiv-content h1 span {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .secondDiv-content p {
+        font-size: 24px;
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+}
+
 .thirdDiv {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
 
 .thirdDiv-text {
@@ -106,6 +144,27 @@ width: 100%;
 
 .thirdDiv-text h1 {
     margin-bottom: 30px;
+}
+
+.thirdDiv-text p {
+    margin-bottom: 50px;
+}
+
+.acompanheArv-btn {
+    text-decoration: none;
+    color: black;
+    background-color: #109E19;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+
+@media (min-width: 1024px) {
+    .bubbles {
+        margin-left: 140px;
+        margin-bottom: 20px;
+
+    }
 }
 
 .fourthDiv {
@@ -124,6 +183,7 @@ width: 100%;
     display: flex;
     align-items: center;
     margin-top: 20px;
+    flex-basis: 100%;
 }
 
 .carbonCoins img {
@@ -140,6 +200,7 @@ width: 100%;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    flex-basis: 100%;
 }
 
 .treeCoins img {
@@ -158,10 +219,20 @@ width: 100%;
     text-decoration: none;
     color: black;
     font-weight: normal;
-    
+
 }
 
-@media (min-width: 860px) {
+@media (min-width: 1024px) {
+    .carbonCoins {
+        margin-left: 140px;
+    }
+
+    .treeCoins {
+        margin-left: 140px;
+    }
+}
+
+@media (max-width: 860px) {
     .fourthDiv-content {
         display: block;
     }
@@ -186,6 +257,10 @@ width: 100%;
     margin-bottom: 20px;
 }
 
+.fifth-text h1 span {
+    color: #109E19;
+}
+
 .fifth-text p {
     margin-bottom: 30px;
 }
@@ -205,6 +280,37 @@ width: 100%;
     padding: 10px;
     border-radius: 6px;
 
+}
+
+@media (min-width: 1024px) {
+
+    .fifthDiv {
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .fifth-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0px 0px;
+        margin-left: 140px;
+
+    }
+
+    .fifth-img {
+        width: 70%;
+    }
+
+    .fifth-text p {
+        margin-left: 20%;
+        flex-basis: 100%;
+        font-size: 20px;
+    }
 }
 
 .sixthDiv {
@@ -231,14 +337,12 @@ width: 100%;
     border-radius: 6px;
 }
 
-@media (min-width: 1180px) {
-    .sixth-top {
-        display: block;
+@media (min-width: 1024px) {
+    .sixth-top h1 {
+        flex-basis: 100%;
+        margin-left: 20%;
     }
 
-    .sixth-btn {
-        margin-left: 42%;
-    }
 }
 
 .sixth-bottom {
@@ -259,7 +363,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px;
-    
+
 }
 
 .empresa-card2 {
@@ -270,7 +374,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px;
-    
+
 }
 
 .empresa-card3 {
@@ -281,7 +385,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px;
-    
+
 }
 
 .empresa-card4 {
@@ -292,7 +396,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px;
-    
+
 }
 
 .empresa-card5 {
@@ -303,7 +407,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px;
-    
+
 }
 
 .empresa-card6 {
@@ -331,6 +435,77 @@ width: 100%;
     align-items: center;
 }
 
+@media (min-width: 1024px) {
+    .sixth-bottom {
+        justify-content: center;
+    }
+
+    .empresa-card1 {
+        background-image: url("../img/card1.jpg");
+        height: 200px;
+        width: 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 20px;
+
+    }
+
+    .empresa-card2 {
+        background-image: url("../img/card2.jpg");
+        height: 200px;
+        width: 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 20px;
+
+    }
+
+    .empresa-card3 {
+        background-image: url("../img/card3.jpg");
+        height: 200px;
+        width: 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 20px;
+
+    }
+
+    .empresa-card4 {
+        background-image: url("../img/card4.jpg");
+        height: 200px;
+        width: 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 20px;
+
+    }
+
+    .empresa-card5 {
+        background-image: url("../img/card5.jpg");
+        height: 200px;
+        width: 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 20px;
+
+    }
+
+    .empresa-card6 {
+        background-image: url("../img/card6.jpg");
+        height: 200px;
+        width: 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 20px;
+    }
+}
+
 .seventhDiv {
     display: flex;
     justify-content: center;
@@ -338,6 +513,7 @@ width: 100%;
     flex-wrap: wrap;
     gap: 150px;
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 
@@ -375,7 +551,7 @@ width: 100%;
 .education h1 span2 {
     color: #C8AA00;
     font-family: Anonymous Pro;
-    
+
 }
 
 .saibaMais-btn {
@@ -386,10 +562,3 @@ width: 100%;
     border-radius: 6px;
 
 }
-
-
-
-
-
-
-

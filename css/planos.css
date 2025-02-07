@@ -1,0 +1,405 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter.ttc);
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(../fonts/AnonymousPro-Regular.ttf);
+}
+
+.card-plano1 img {
+    width: 300px;
+    height: 50%;
+}
+
+.card-plano1 {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.card1-price img {
+    width: 34px;
+    height: 34px;
+    float: left;
+    margin-top: 10px;
+}
+
+.planos-B2C {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.texto-B2C {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planos-B2C h1 {
+    padding: 50px 50px;
+}
+
+.card1-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card1-info h2 span {
+    color: #109E19;
+}
+
+.card1-price p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.card-plano2 img {
+    width: 300px;
+    height: 50%;
+}
+
+.card-plano2 {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.card2-pay img {
+    width: 34px;
+    height: 34px;
+    float: left;
+    margin-top: 10px;
+}
+
+.card2-pay p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+.card2-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.card2-info h2 {
+    font-size: 20px;
+}
+
+.card2-info h2 span {
+    color: #5297FF;
+}
+
+.card2-info h2 span2 {
+    color: #8800FF;
+}
+
+.adotar-btn {
+    background-color: #109E19;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+.candidatar-btn {
+    background-color: #0048FF;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+@media (min-width: 1024px) {
+    .card-plano1 {
+        width: 438px;
+        height: 533px;
+    }
+
+    .card-plano1 img {
+        width: 438px;
+        height: 50%;
+    }
+
+    .card1-price {
+        margin-top: 45px;
+    }
+
+    .card1-price img {
+        width: 34px;
+        height: 34px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .card-plano2 {
+        width: 438px;
+        height: 533px;
+    }
+
+    .card-plano2 img {
+        width: 438px;
+        height: 50%;
+    }
+    
+    .card2-pay {
+        margin-top: 25px;
+    }
+
+    .card2-pay img {
+        width: 34px;
+        height: 34px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .texto-B2C {
+        flex-basis: 100%;
+    }
+
+
+}
+
+.plano-B2B {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 50px;
+    gap: 50px;
+}
+
+.texto-B2B {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plano-B2B h1 span {
+    color: #109E19;
+}
+
+.plano-dados {
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plano-dados p {
+    border-right: 1px solid black;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Inter;
+}
+
+.card-plano-pdt {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.card-pdt-img {
+    display: flex;
+    justify-content: center;
+}
+
+.card-pdt-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.card-pdt-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.card-pdt-info img {
+    width: 34px;
+    height: 34px;
+}
+
+.card-pdt-info-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+
+}
+
+.card-pdt-info-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 199px;
+    margin-right: 10px;
+    height: 34px;
+    margin-bottom: 20px;
+    
+}
+
+.card-pdt-info-top p {
+    margin-left: 5px;
+}
+
+.card-pdt-info-bottom p {
+    margin-left: 5px;
+}
+
+.card-pdt-info h3 {
+    padding: 10px;
+}
+
+.adq-plano {
+    background-color: #0048FF;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+    .texto-B2B h1 {
+        margin-bottom: 25px;
+    }
+    .texto-B2B h4 {
+        margin-bottom: 25px;
+    }
+
+    .plano-B2B {
+        gap: 100px;
+    }
+
+    .card-plano-pdt {
+        width: 600px;
+    }
+
+    .card-pdt-info-top {
+        margin-bottom: 20px;
+    }
+}
+
+.plano-B2G {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.plano-B2G h1 {
+    font-family: Inter;
+    padding: 30px 50px 20px 50px;
+}
+
+.plano-B2G h1 span {
+    color: #109E19;
+}
+
+.plano-B2G h1 span2 {
+    font-family: Anonymous Pro;
+    color: #C8AA00;
+}
+
+.card-school {
+    width: 300px;
+    height: 490px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.school-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.school-info h1 span {
+    color: #C8AA00;
+}
+
+.school-info h3 {
+    padding: 0px 20px 10px 20px;
+    font-weight: bold;
+}
+
+.school-btn {
+    background-color: #C8AA00;
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    
+
+}
+
+.texto-B2G {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+@media (min-width: 1024px) {
+    .card-school {
+        width: 600px;
+    }
+
+    .texto-B2G {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+
+    .plano-B2G{
+        gap: 100px;
+    }
+}
+
+
+
+
+
+
+
+

@@ -8,6 +8,10 @@
     src: url(../fonts/AnonymousPro-Regular.ttf);
 }
 
+body a {
+    font-family: Inter;
+}
+
 .card-plano1 img {
     width: 300px;
     height: 50%;
@@ -121,6 +125,11 @@
     font-weight: normal;
 }
 
+.adotar-btn:hover {
+    background-color: #13be1e;
+    transition: 0.2s ease-in-out;
+}
+
 .candidatar-btn {
     background-color: #0048FF;
     padding: 10px;
@@ -128,6 +137,11 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: normal;
+}
+
+.candidatar-btn:hover {
+    background-color: #2088e9;
+    transition: 0.2s ease-in-out;
 }
 
 @media (min-width: 1024px) {
@@ -291,6 +305,11 @@
     margin-bottom: 20px;
 }
 
+.adq-plano:hover {
+    background-color: #2088e9;
+    transition: 0.2s ease-in-out;
+}
+
 @media (min-width: 1024px) {
     .texto-B2B h1 {
         margin-bottom: 25px;
@@ -371,6 +390,11 @@
     margin-bottom: 20px;
     
 
+}
+
+.school-btn:hover {
+    background-color: #FAD400;
+    transition: 0.2s ease-in-out;
 }
 
 .texto-B2G {

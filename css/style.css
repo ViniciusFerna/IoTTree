@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter.ttc);
+}
+
 body {
     min-height: 100%;
 }
@@ -55,7 +60,7 @@ nav {
 }
 
 .nav-btns li {
-    margin-right: 95px;
+    margin-right: 10px;
 }
 
 .nav-btns a {
@@ -110,7 +115,7 @@ nav {
     margin: 3px;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1024px) {
 
     nav {
         flex-wrap: wrap;
@@ -136,6 +141,7 @@ nav {
 
     .nav-btns li {
         flex-basis: 100%;
+        margin-right: 95px;
     }
 
     .nav-btns a {
@@ -161,3 +167,27 @@ nav {
 
 
 }
+
+.footer {
+    background-color: #111;
+    color: rgb(173, 173, 173);
+    padding: 20px ;
+    
+}
+
+.termos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.termos a {
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+}
+
+.termos a:hover {
+    text-decoration: underline solid white;
+}
+

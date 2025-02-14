@@ -24,6 +24,10 @@ nav {
     z-index: 1;
 }
 
+a  {
+    text-wrap: nowrap;
+}
+
 .nav-bar {
     height: 101px;
 }
